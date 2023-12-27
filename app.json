@@ -3,6 +3,15 @@
     "name": "Emergency",
     "slug": "Emergency",
     "version": "1.0.0",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location.",
+          "isAndroidBackgroundLocationEnabled": true
+        }
+      ]
+    ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
